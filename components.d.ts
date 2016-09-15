@@ -1,1 +1,1 @@
-export * from './src/HelloWorld';
+export * from './lib/HelloWorld';

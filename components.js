@@ -1,1 +1,1 @@
-exports.HelloWorld = require('./src/HelloWorld').HelloWorld;
+exports.HelloWorld = require('./lib/HelloWorld').HelloWorld;
