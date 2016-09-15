@@ -8,6 +8,12 @@
     "removeComments": true,
     "sourceMap": true,
     "outDir": "../lib",
-    "declaration": true
+    "declaration": true,
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "types": [
+      "core-js"
+    ]
   }
 }

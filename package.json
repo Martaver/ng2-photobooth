@@ -1,33 +1,37 @@
 {
-  "name": "angular2-library-example",
-  "version": "1.0.6",
-  "description": "An example repository for building your own Angular 2 library",
-  "main": "angular2-library-example.js",
+  "name": "ng2-photobooth",
+  "version": "0.1.0",
+  "description": "A responsive ng2 component for using the client webcam/camera to take photos for mobile or desktop.",
+  "main": "ng2-photobooth.js",
   "scripts": {
     "watch": "tsc -p src -w",
     "build": "rm -rf lib && tsc -p src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhades/angular2-library-seed.git"
+    "url": "git+https://github.com/martaver/ng2-photobooth"
   },
   "keywords": [
     "Angular",
     "2",
-    "Library",
-    "Seed"
+    "Photobooth",
+    "Webcam"
   ],
-  "author": "jhades.dev@gmail.com",
+  "author": "sebastian@ilixir.fi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jhades/angular2-library-seed/issues"
+    "url": "https://github.com/martaver/ng2-photobooth/issues"
   },
-  "homepage": "https://github.com/jhades/angular2-library-seed#readme",
+  "homepage": "https://github.com/martaver/ng2-photobooth#readme",
   "devDependencies": {
-    "typescript": "^1.7.5"
+    "@types/core-js": "^0.9.32",
+    "typescript": "^2.0.2"
   },
   "dependencies": {
-    "angular2": "2.0.0-beta.0",
-    "rxjs": "5.0.0-beta.0"
+    "@angular/core": "2.0.0",
+    "@angular/common": "2.0.0",
+    "core-js": "^2.4.1",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.23"
   }
 }
