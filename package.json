@@ -5,11 +5,11 @@
   "main": "ng2-photobooth.js",
   "scripts": {
     "watch": "tsc -p src -w",
-    "build": "rm -rf lib && tsc -p src"
+    "build": "del /s /q lib && tsc -p src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/martaver/ng2-photobooth"
+    "url": "git+https://github.com/martaver/ng2-photobooth.git"
   },
   "keywords": [
     "Angular",

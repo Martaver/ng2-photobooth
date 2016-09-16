@@ -1,1 +1,1 @@
-exports.HelloWorld = require('./lib/HelloWorld').HelloWorld;
+exports.PhotoBooth = require('./lib/photo-booth').PhotoBooth;
