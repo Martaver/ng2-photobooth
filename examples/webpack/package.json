@@ -25,6 +25,7 @@
   "devDependencies": {
     "@types/core-js": "^0.9.32",
     "typescript": "^2.0.2",
+    "ts-loader": "latest",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
   },

@@ -5,7 +5,7 @@
   "main": "ng2-photobooth.js",
   "scripts": {
     "watch": "tsc -p src -w",
-    "build": "del /s /q lib && tsc -p src"
+    "build": "del /s /q lib && tsc -p src && npm pack && cd examples/webpack && npm install ../../ng2-photobooth-0.1.0.tgz"
   },
   "repository": {
     "type": "git",

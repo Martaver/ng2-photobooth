@@ -3,31 +3,27 @@ import 'core-js/es7/reflect';
 import 'zone.js';
 import {Component} from '@angular/core';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
-import {PhotoBooth} from 'ng2-photobooth/components';
 import {NgModule} from "@angular/core";
 import {BrowserModule} from "@angular/platform-browser";
+
+import {TeachSelfie, PhotoBooth, UploadService} from "ng2-photobooth";
 
 const platform = platformBrowserDynamic();
 
 @Component({
     selector: 'app',
     template: `<div>                   
-                   <photo-booth></photo-booth>
+                   <teach-selfie></teach-selfie>  
                </div>`
 })
 export class App {
-
-    message = "";
-
-    onKeyUp(input) {
-        this.message = input.value;
-    }
 
 }
 
 @NgModule({
     imports: [BrowserModule],
-    declarations: [App, PhotoBooth],
+    declarations: [App, TeachSelfie, PhotoBooth],
+    providers: [UploadService],
     bootstrap: [App]
 })
 export class AppModule { }

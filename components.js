@@ -1,1 +1,0 @@
-exports.PhotoBooth = require('./lib/photo-booth').PhotoBooth;
